@@ -34,7 +34,7 @@ class Main:
     def run() -> None:
         print("Human Control Patterns with Google ADK")
         print(f"Current mode: {MODE.upper()}")
-        print("Run `adk web` or `adk run main` to interact with the agent.")
+        print("Run `adk web` or `adk run .` to interact with the agent.")
 
 
 if __name__ == "__main__":

@@ -399,3 +399,10 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+
+# Python and Google ADK local files
+.venv/
+.env
+.adk/
+.pytest_cache/
+.mypy_cache/

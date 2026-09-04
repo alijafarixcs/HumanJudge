@@ -32,6 +32,7 @@ agents/
 └── hoitl_agent.py
 tools/
 └── support_tools.py
+agent.py
 main.py
 requirements.txt
 .env.example
@@ -75,7 +76,7 @@ adk web
 Or use the terminal runner:
 
 ```powershell
-adk run main
+adk run .
 ```
 
 Run `python main.py` to display the selected mode without starting a chat.
@@ -89,4 +90,4 @@ monitoring, and tested escalation paths. Do not use HOITL for high-risk work.
 
 ## License
 
-Add a `LICENSE` file before publishing so reuse terms are explicit.
+Released under the [MIT License](LICENSE).
